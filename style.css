@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+body {
+  background-image: linear-gradient(
+    to top left,
+    rgb(0, 0, 0),
+    rgba(0, 0, 0, 0.692)
+  );
+  /* background-color: rgba(0, 0, 0, 0.76); */
+}
+html {
+  font-size: 16px;
+}
+header {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  background-image: url(https://www.mountainmoments.com/wp-content/uploads/2019/06/web_mountainmoments-5430-1030x688.jpg?189db0&189db0);
+  /* object-fit: contain; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+header h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  color: orange;
+  text-shadow: 3px 3px 5px black;
+  position: relative;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+nav {
+  /* width: 100%; */
+
+  background-color: rgb(202, 199, 199);
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  /* overflow: auto; */
+}
+
+nav a {
+  font-size: 1rem;
+  color: #393085;
+  margin: 0 15px;
+  line-height: 70px;
+}
+
+nav a:hover {
+  color: rgb(197, 97, 90);
+}
+
+main {
+  position: relative;
+  /* background-color: black; */
+  /* padding-top: 24px;
+  width: 85%;
+  margin: 32px auto;
+  background-color: #eeeeee;
+  padding: 24px;
+  border: 2px solid white;
+  border-radius: 8px; */
+}
+
+.NRW {
+  max-height: 500px;
+  padding-top: 24px;
+  width: 85%;
+  /* position: relative;
+  left: -7%; */
+  margin: 32px auto;
+  background-color: #eeeeee;
+  padding: 24px;
+  border: 2px solid rgb(207, 205, 205);
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.NRW h2 {
+  padding: 10px;
+  text-align: center;
+  font-size: 2rem;
+  color: orange;
+  text-shadow: 1px 1px 3px black;
+}
+h3 {
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: bolder;
+}
+.intro {
+  border: orange 5px solid;
+  padding: 10px;
+  border-radius: 5px;
+}
+.img-intro {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.history {
+  margin-top: 50px;
+}
+.img-history {
+  max-width: 40%;
+  border: 1px solid black;
+  border-radius: 5px;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 1px;
+}
+
+.img-culture {
+  max-width: 40%;
+  border: 1px solid black;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 1px;
+}
+
+.rhineland {
+  max-height: 500px;
+  padding-top: 24px;
+  width: 85%;
+  /* position: relative;
+  right: -7%; */
+  margin: 32px auto;
+  background-color: #eeeeee;
+  padding: 24px;
+  border: 2px solid rgb(207, 205, 205);
+  border-radius: 8px;
+  overflow: auto;
+}
+
+.rhineland h2 {
+  padding: 10px;
+  text-align: center;
+  font-size: 2rem;
+  color: orange;
+  text-shadow: 1px 1px 3px black;
+}
+
+.intro-rhineland {
+  border: orange 5px solid;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.img-rhineland {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.history-rhineland {
+  margin-top: 50px;
+}
+.img-rhineland-history {
+  max-width: 40%;
+  border: 1px solid black;
+  border-radius: 5px;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 1px;
+}
+
+.img-geo {
+  max-width: 40%;
+  border: 1px solid black;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 1px;
+}
+#mv {
+  max-height: 500px;
+  padding-top: 24px;
+  width: 85%;
+  margin: 32px auto;
+  /* position: relative;
+  left: -7%; */
+  background-color: #eeeeee;
+  padding: 24px;
+  border: 2px solid rgb(207, 205, 205);
+  border-radius: 8px;
+  overflow: auto;
+}
+#mv h2 {
+  /* margin-bottom: 16px; */
+  padding: 10px;
+  text-align: center;
+  font-size: 2rem;
+  color: orange;
+  text-shadow: 1px 1px 3px black;
+}
+#mv-intro {
+  padding: 10px;
+  font-size: larger;
+  border: solid 5px orange;
+  border-radius: 10px;
+}
+#rügen {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-image: url(https://www.off-to-mv.com/images/0h2jy6p0rhm-/ein-jahr-im-zeichen-der-romantik-natuerlich-romantisch.jpeg);
+}
+#Darss-Zingst {
+  background-image: url(https://www.off-to-mv.com/images/y9dfkopdqmc-/trees-grown-with-the-wind-bathed-in-a-red-morning-glow-at-darsser-weststrand.jpeg);
+}
+#schwerin-castle {
+  background-image: url(https://www.off-to-mv.com/images/yoe9rjdhfz8-/schwerin-castle-in-the-evening-light.jpeg);
+}
+#peene-river {
+  background-image: url(https://www.off-to-mv.com/images/azt1sr8y6aq-/the-unspoilt-landscape-of-the-river-peene-turns-a-canoe-tour-into-a-special.jpeg);
+}
+.mvimg {
+  margin: 0 1%;
+}
+
+#rügen,
+#Darss-Zingst,
+#schwerin-castle,
+#peene-river,
+#wellness1,
+#wellness2,
+#wellness3,
+#wellness4 {
+  margin: 1% 0;
+  display: inline-block;
+  height: 200px;
+  width: 330px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+#wellness1 {
+  background-image: url(https://www.niedersachsen-tourism.com/images/yzgg6u!rxyo-/nordsee-thalasso.jpeg);
+}
+#wellness2 {
+  background-image: url(https://www.niedersachsen-tourism.com/images/cos_b8qaqdy-/bad-pyrmont-kurhaus.jpeg);
+}
+#wellness3 {
+  background-image: url(https://www.niedersachsen-tourism.com/images/h32aup17efa-/hotel-seesteg-pool-norderney.jpeg);
+}
+#wellness4 {
+  background-image: url(https://www.niedersachsen-tourism.com/images/4nrszwy8ay4-/badehaus-norderney.jpeg);
+}
+
+#ni {
+  max-height: 500px;
+  padding-top: 24px;
+  width: 85%;
+  margin: 32px auto;
+  background-color: #eeeeee;
+  padding: 24px;
+  border: 2px solid rgb(207, 205, 205);
+  border-radius: 8px;
+  overflow: auto;
+}
+
+#ni h2 {
+  padding: 10px;
+  text-align: center;
+  font-size: 2rem;
+  color: orange;
+  text-shadow: 1px 1px 3px black;
+}
+
+iframe {
+  width: 800px;
+  height: 400px;
+  margin: 2% 20%;
+}
+​ h3 {
+  margin: 5px auto;
+}
+
+a.home-link {
+  /* display: inline-block; */
+  width: 60px;
+  height: 60px;
+  border: 3px solid #393085;
+  color: #393085;
+  background: rgb(199, 198, 244);
+  text-align: center;
+  line-height: 60px;
+  border-radius: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+a.home-link:hover {
+  transform: scale(1.15);
+  transition: 1s;
+  color: rgb(197, 97, 90);
+  border: 3px solid rgb(197, 97, 90);
+  background: rgb(244, 205, 198);
+}
+
+footer {
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: larger;
+}
+
+footer p {
+  background-color: rgba(128, 128, 128, 0.295);
+  width: 20%;
+  border-radius: 2px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
